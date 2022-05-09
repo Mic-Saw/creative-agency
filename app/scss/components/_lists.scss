@@ -1,0 +1,17 @@
+@use '../abstracts' as a;
+
+ul {
+    display:flex;
+    justify-content: space-between;
+    width:22.4rem;
+
+    li {
+        display:inline-block;
+
+        a {
+            font-size: 1.6rem;
+            line-height: 3.2rem;
+            color:a.$color-white;
+        }
+    }
+}

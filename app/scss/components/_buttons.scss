@@ -1,0 +1,54 @@
+@use '../abstracts' as a;
+
+button {
+    border:none;
+    font-weight: 800;
+    color: a.$color-white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.btn1 {
+    background-color: a.$color-red;
+    
+    &:hover {
+        background-color: #ff9393;
+    }
+}
+
+.btn2 {
+    background-color: a.$background-color-black;
+
+    &:hover {
+        background-color: #434356;
+    }
+}
+
+.btn3 {
+    border-bottom: 1px solid a.$color-red;
+    background-color: transparent;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: a.$color-red;
+    @media(max-width:420px){
+        width:10.3rem;
+        padding-bottom: .8rem;
+        font-size: 1.5rem;
+    }
+}
+
+.long {
+    width:19.9rem;
+    height: 6.4rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.short {
+    width:17.7rem;
+    height: 7.2rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+

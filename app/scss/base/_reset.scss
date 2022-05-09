@@ -1,0 +1,43 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 10px;
+    @media(max-width:1250px){
+        font-size: 8px;
+    }
+    @media(max-width:1000px){
+        font-size:10px;
+    }
+    @media(max-width:800px){
+        font-size: 9px;
+    }
+    @media(max-width:740px){
+        font-size:8px;
+    }
+    @media(max-width:670px){
+        font-size:7px;
+    }
+    @media(max-width:420px){
+        font-size:10px;
+    }
+    @media(max-width:290px){
+        font-size:8px;
+    }
+}
+
+body {
+    width:100vw;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    font-weight: 400;
+
+    @media (max-width:1000px) {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+}
